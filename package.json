@@ -1,0 +1,17 @@
+{
+  "name": "darwinia-s2s-template",
+  "version": "1.0.0",
+  "description": "A template project for substrate 2 substrate messaging sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akiwu",
+  "license": "MIT",
+  "devDependencies": {
+    "@darwinia/contracts-periphery": "^2.0.1",
+    "@darwinia/contracts-utils": "^1.0.3",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.1"
+  }
+}
