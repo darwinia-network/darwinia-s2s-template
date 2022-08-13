@@ -7,6 +7,17 @@ This project demonstrates a basic Darwinia Substrate-based messaging SDK use cas
 * Endpoint on Pangolin. [PangolinToPangoroEndpoint.sol](./contracts/PangolinToPangoroEndpoint.sol)
 * Callee contract on Pangolin. [Callee.sol](./contracts/Callee.sol)
 
-## Usage
+## Run
 
-https://docs.darwinia.network/sdk/guides/execute-remote-smart-contract-call
+1. Set private keys
+
+    ```bash
+    cp .env_sample .env
+    ```
+    Set your private keys
+
+2. Run scripts
+
+    ```bash
+    ./scripts/run.sh
+    ```
